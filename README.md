@@ -1,6 +1,6 @@
 # SystemBridge
 This Program Allowes you to connect to the many useful features of windows.
-With a Basic UI and A API that is so easy to use, anybody can have this on their computer.
+With a Basic UI and an API that is so easy to use, anybody can have this on their computer.
 
 Please Read Below for the license:
 

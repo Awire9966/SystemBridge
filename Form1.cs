@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -65,11 +65,7 @@ namespace SystemBridge
             richTextBox1.Text = "Process finished!";
         }
 
-        private void button8_Click(object sender, EventArgs e)
-        {
-            richTextBox1.Text = "Running Command Line....";
-            Process.Start("C:/Windows/System32/cmd.exe");
-            richTextBox1.Text = "Process finished!";
-        }
+
     }
 }
+

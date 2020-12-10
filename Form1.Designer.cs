@@ -1,4 +1,4 @@
-﻿
+
 namespace SystemBridge
 {
     partial class SystemBridge
@@ -38,7 +38,6 @@ namespace SystemBridge
             this.button5 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -121,22 +120,11 @@ namespace SystemBridge
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(184, 292);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(139, 65);
-            this.button8.TabIndex = 9;
-            this.button8.Text = "Command Line";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
             // SystemBridge
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 371);
-            this.Controls.Add(this.button8);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button5);
@@ -162,7 +150,6 @@ namespace SystemBridge
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button8;
     }
 }
 
